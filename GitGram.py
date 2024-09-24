@@ -20,7 +20,7 @@ if ENV:
     BOT_TOKEN = environ.get('BOT_TOKEN', None)
     PROJECT_NAME = environ.get('PROJECT_NAME', None)
     ip_addr = environ.get('APP_URL', None)
-    GIT_REPO_URL = environ.get('GIT_REPO_URL', "https://github.com/MadeByThePinsHub/GitGram")
+    GIT_REPO_URL = environ.get('GIT_REPO_URL', "https://github.com/christalselvin/Lolita-bot-song")
 else:
     BOT_TOKEN = config.BOT_TOKEN
     PROJECT_NAME = config.PROJECT_NAME
@@ -32,7 +32,7 @@ if not BOT_TOKEN:
     log.error("BOT_TOKEN is not defined!")
     exit(1)
 
-print("If you need more help, join @GitGramChat in Telegram.")
+print("If you need more help, join @LolitaChat in Telegram.")
 # Create Telegram bot application
 
 # Telegram bot commands
