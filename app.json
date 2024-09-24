@@ -6,9 +6,9 @@
         "telegram",
         "github"
     ],
-    "repository": "https://github.com/pokurt/GitGram",
-    "website": "https://github.com/pokurt/GitGram",
-    "success_url": "https://t.me/GitGramChat",
+    "repository": "https://github.com/christalselvin/Lolita-bot-song",
+    "website": "https://github.com/christalselvin/Lolita-bot-song",
+    "success_url": "https://t.me/LolitaChat",
     "stack": "container",
     "env": {
         "ENV": {
@@ -24,7 +24,7 @@
             "value": ""
         },
         "APP_URL": {
-            "description": "Heroku app url, example: https://appname.herokuapp.com",
+            "description": "Heroku app url, example: https://appname.Vercelapp.com",
             "value": ""
         }
     }
